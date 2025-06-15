@@ -6,6 +6,7 @@ import Nav from "@/components/layout/Nav";
 import Footer from "@/components/layout/Footer";
 import Listings from "@/components/layout/Listings"
 import Searchfilter from "@/components/layout/Searchfilter";
+import BookingSection from "@/components/property/BookingSection";
 
 
 
@@ -25,6 +26,7 @@ export default function Layout() {
           </div>
         </div>
         <Listings />
+        <BookingSection />
       </main>
       <Footer />
     </div>

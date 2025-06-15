@@ -4,7 +4,7 @@ import PropertyCard from "@/components/common/PropertyCard";
 export default function ListingsPage() {
   return (
     <div className="pl-10 pr-10 p-4">
-    <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 cursor-pointer">
       {PROPERTYLISTINGSAMPLE.map((property, index) => (
         <PropertyCard key={index} data={property} />
       ))}
